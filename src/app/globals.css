@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional Card Styles */
+.card {
+  @apply bg-white shadow-lg p-6 rounded-lg max-w-sm text-left;
+}
+
+.card-title {
+  @apply text-lg font-semibold text-blue-600 mb-2;
+}
+
+.card-content {
+  @apply text-gray-700;
+}
